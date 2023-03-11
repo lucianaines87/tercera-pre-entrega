@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap");
+h1 {
+  font-family: "Rubik Gemstones", cursive;
+  font-size: 80px;
+}
+
+body {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill);
+}
+
+nav {
+  font-family: "Rubik Gemstones", cursive;
+  float: left;
+  clear: both;
+  width: auto;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+}
+
+.Header {
+  position: fixed;
+  z-index: 100;
+  width: auto;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  padding: 30px;
+  transition: all 0.3s ease;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+.Header .navbar navbar-expand-lg {
+  float: left;
+  clear: both;
+  font-size: 16px;
+  color: transparent;
+  letter-spacing: 2px;
+  padding-right: 20px;
+  position: relative;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+.Header .social {
+  bottom: 30px;
+  float: right;
+  clear: both;
+  width: auto;
+  position: absolute;
+  right: 30px;
+}
+
+.index {
+  margin: 0;
+  padding: 0;
+  background-image: url(../Imagenes/Index\ Logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.Titulo-musica {
+  width: 600px;
+  padding: auto;
+  margin-top: 45px;
+  margin-left: 80px;
+}
+
+.Musica {
+  font-family: "Rubik Gemstones", cursive;
+  color: black;
+}
+
+.carousel-image {
+  width: 350px;
+  padding: 5px;
+  border: 15px;
+  border-color: black;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.header_logo {
+  float: right;
+  width: 62px;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.carouselExample {
+  border: 1px solid black;
+  padding: 450px;
+}
+
+.row {
+  float: left;
+  width: auto;
+}
+
+.container-fluid {
+  width: auto;
+}
+
+.biografia-container {
+  border: 100px;
+  margin: 100px;
+  padding: 29px;
+}
+
+.containe-menu {
+  float: right;
+  list-style: inside;
+}
+
+/*# sourceMappingURL=estilo.css.map */
