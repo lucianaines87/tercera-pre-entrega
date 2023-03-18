@@ -50,6 +50,8 @@ nav {
   margin-bottom: 10px;
 }
 .Header .social {
+  display: flex;
+  flex-direction: column;
   bottom: 30px;
   float: right;
   clear: both;

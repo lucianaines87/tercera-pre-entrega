@@ -25,6 +25,7 @@ body {
     
 }
 nav {
+	
 	font-family: $font-family_1;
 	float: left;
 	clear: both;
@@ -62,6 +63,8 @@ nav {
 	box-sizing: border-box;
 	font-weight: 500;
 	.social {
+		display: flex;
+		flex-direction: column;
 		bottom: 30px;
 		float: right;
 		clear: both;
