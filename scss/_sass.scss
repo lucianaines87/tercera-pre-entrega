@@ -1,56 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 $color_2: black;
-$font-family_1: 'Rubik Gemstones', cursive;
+$font-family_1: 'Permanent Marker', cursive;
 $border-color_1: black;
 
 @mixin h1 {
 	font-family: $font-family_1;
-    font-size: 80px;
-    $font-family_1: 'Rubik Gemstones', cursive;
-	
+	$font-family_1: 'Permanent Marker', cursive;
+}
+
+@mixin header {
+	font-family: $font-family_1;
+	$font-family_1: 'Permanent Marker', cursive;
+	color: black;
+
+}
+
+header {
+	@include header
 }
 
 h1 {
-   @include h1
-
-}
- 
-
-    
-
-.Titulo-musica {
-	width: 600px;
-	padding: auto;
-	margin-top: 45px;
-	margin-left: 80px;
-}
-.Musica {
-	font-family: $font-family_1;
-	color: $color_2;
-}
-.carousel-image {
-	width: 350px;
-	padding: 5px;
-	border: 15px;
-	border-color: $border-color_1;
-	margin-top: 40px;
-	margin-left: 80px;
-}
-
-
-
-.carouselExample {
-	border: 1px solid black;
-	padding: 450px;
-}
-
-.container-fluid {
-	width: auto;
-}
-.biografia-container {
-	border: 100px;
-	margin: 100px;
-	padding: 29px;
+	@include h1
 }

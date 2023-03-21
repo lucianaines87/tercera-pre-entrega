@@ -1,75 +1,74 @@
 @media only screen and (min-width: 990px) {
-    .hamburguesa{
-        display: none !important;
-        
-     }
-    }
-
-    @media only screen and (max-width: 990px) {
-        .lateral-header{
-            display: none !important;
-            
-         }
-        }
-
     .hamburguesa {
-        background-color: grey;
-        opacity: 80%;
-       
-    }
-    .container {
-        position: relative;
-        margin: 0;
-        border: 0;
-        padding: 0;
-        margin: 0;
-    }
-  
+        display: none !important;
 
+    }
+}
+
+@media only screen and (max-width: 990px) {
     .lateral-header {
-        position: fixed;
-        height: 100vh;
-        border: 10px;
-        padding: 40px;
-        top: 0;
-        right: 0;
-        
-        background: linear-gradient(to right,rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
-        margin-top: 10px;
-        padding-top: 0;
-        text-decoration: none;
-        box-sizing: border-box;
-        font-weight: 500;
-        justify-content: center;
-         }
-       
+        display: none !important;
 
-         .social-lateral{
-            display: flex;
-            flex-direction: column;
-            margin-top: 180px;
-            align-items: flex-end;
-        }
+    }
+}
 
-        .social-hamburguesa{
-            display: flex;
-            flex-direction: column;
-            margin-top: 20px;
-            align-items: flex-start;
-        }
+.hamburguesa {
+    background-color: grey;
+    opacity: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-       .lateral-header .Header_logo {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-end;
-            width: 80px;
-            margin-top: 15px;
-            margin-right: 10pxpx;
-            padding: 0;
-            border: none;
-            text-decoration: none;
-        }
+.lateral-header {
 
-        .utton.navbar-toggler.collapsed {
-            margin-right: 300px;
-        }
+    height: 100vh;
+    width: 240px;
+    float: right;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    transition: all .3s ease;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    margin-top: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.social-lateral {
+    float: right;
+    display: flex;
+    width: 40px;
+    flex-direction: column;
+    margin-top: 680px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+    
+    margin-right: -90px;
+    align-items: flex-end;
+
+}
+
+.social.hamburguesa {
+    top: 20px;
+    right: 55px;
+    bottom: 30px;
+    
+
+}
+
+.lateral-header .Header_logo {
+
+    float: right;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+.utton.navbar-toggler.collapsed {
+    margin-right: 300px;
+}
