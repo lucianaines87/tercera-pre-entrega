@@ -1,0 +1,75 @@
+@media only screen and (min-width: 990px) {
+    .hamburguesa{
+        display: none !important;
+        
+     }
+    }
+
+    @media only screen and (max-width: 990px) {
+        .lateral-header{
+            display: none !important;
+            
+         }
+        }
+
+    .hamburguesa {
+        background-color: grey;
+        opacity: 80%;
+       
+    }
+    .container {
+        position: relative;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+  
+
+    .lateral-header {
+        position: fixed;
+        height: 100vh;
+        border: 10px;
+        padding: 40px;
+        top: 0;
+        right: 0;
+        
+        background: linear-gradient(to right,rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+        margin-top: 10px;
+        padding-top: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-weight: 500;
+        justify-content: center;
+         }
+       
+
+         .social-lateral{
+            display: flex;
+            flex-direction: column;
+            margin-top: 180px;
+            align-items: flex-end;
+        }
+
+        .social-hamburguesa{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            align-items: flex-start;
+        }
+
+       .lateral-header .Header_logo {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            width: 80px;
+            margin-top: 15px;
+            margin-right: 10pxpx;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+        }
+
+        .utton.navbar-toggler.collapsed {
+            margin-right: 300px;
+        }

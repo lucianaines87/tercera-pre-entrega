@@ -4,72 +4,6 @@ h1 {
   font-size: 80px;
 }
 
-body {
-  display: grid;
-  gap: 1rem;
-  grid-auto-rows: 22rem;
-  grid-template-columns: repeat(auto-fill);
-}
-
-nav {
-  font-family: "Rubik Gemstones", cursive;
-  float: left;
-  clear: both;
-  width: auto;
-}
-
-.bg-body-tertiary {
-  --bs-bg-opacity: 0;
-}
-
-.Header {
-  position: fixed;
-  z-index: 100;
-  width: auto;
-  height: 100vh;
-  top: 0;
-  right: 0;
-  padding: 30px;
-  transition: all 0.3s ease;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
-  margin: 0;
-  border: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-weight: 500;
-}
-.Header .navbar navbar-expand-lg {
-  float: left;
-  clear: both;
-  font-size: 16px;
-  color: transparent;
-  letter-spacing: 2px;
-  padding-right: 20px;
-  position: relative;
-  padding-bottom: 4px;
-  margin-bottom: 10px;
-}
-.Header .social {
-  display: flex;
-  flex-direction: column;
-  bottom: 30px;
-  float: right;
-  clear: both;
-  width: auto;
-  position: absolute;
-  right: 30px;
-}
-
-.index {
-  margin: 0;
-  padding: 0;
-  background-image: url(../Imagenes/Index\ Logo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
-
 .Titulo-musica {
   width: 600px;
   padding: auto;
@@ -91,26 +25,9 @@ nav {
   margin-left: 80px;
 }
 
-.header_logo {
-  float: right;
-  width: 62px;
-  clear: both;
-  margin: 0;
-  padding: 0;
-  border: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-weight: 500;
-}
-
 .carouselExample {
   border: 1px solid black;
   padding: 450px;
-}
-
-.row {
-  float: left;
-  width: auto;
 }
 
 .container-fluid {
@@ -123,9 +40,108 @@ nav {
   padding: 29px;
 }
 
-.containe-menu {
-  float: right;
-  list-style: inside;
+.a {
+  font-style: normal;
+}
+
+@media only screen and (min-width: 990px) {
+  .hamburguesa {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .lateral-header {
+    display: none !important;
+  }
+}
+.hamburguesa {
+  background-color: grey;
+  opacity: 80%;
+}
+
+.container {
+  position: relative;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.lateral-header {
+  position: fixed;
+  height: 100vh;
+  border: 10px;
+  padding: 40px;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  margin-top: 10px;
+  padding-top: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.social-lateral {
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  align-items: flex-end;
+}
+
+.social-hamburguesa {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+
+.lateral-header .Header_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 80px;
+  margin-top: 15px;
+  margin-right: 10pxpx;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+
+.utton.navbar-toggler.collapsed {
+  margin-right: 300px;
+}
+
+.index {
+  margin: 0;
+  padding: 0;
+  background-image: url(../Imagenes/Index\ Logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.nav.navbar.nabvar-espand-lg {
+  background-color: gray;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-lateral {
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  padding-right: 20px;
+  margin-top: 175px;
+}
+
+ul {
+  align-items: flex-end;
 }
 
 /*# sourceMappingURL=estilo.css.map */
