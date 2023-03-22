@@ -1,0 +1,52 @@
+
+    .disc {
+        
+        float: left;
+        width: 100%;
+        min-height: 100vh;
+        background: #f3f2ed;
+        position: relative;
+        overflow: hidden;
+    }
+
+    
+.disc .container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+.disc__content {
+    float: left;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
