@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: none;
+  background-color: #ebebeb;
 }
 
 h1 {
@@ -13,10 +13,13 @@ h1 {
 
 .container {
   margin-top: 90px;
-  margin-left: 0;
-  margin-right: 0;
 }
 
+@media only screen and (min-width: 990px) {
+  .container {
+    margin-left: 40px;
+  }
+}
 .slider {
   margin-bottom: 5px;
   position: relative;
@@ -27,7 +30,7 @@ h1 {
   background: #ff9966;
   background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
   background: linear-gradient(to bottom, #ff5e62, #ff9966);
-  color: #fff;
+  color: #ebebeb;
 }
 
 .slider-card {

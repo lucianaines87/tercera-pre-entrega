@@ -1,10 +1,11 @@
-$color_1: #fff;
+$color_1: #ebebeb;
 
 html {
 	scroll-behavior: auto;
 }
 body {
-	background: none;
+	background-color:  #ebebeb;
+
 }
 h1 {
 	font-size: 70px;
@@ -12,9 +13,15 @@ h1 {
 }
 .container {
 	margin-top: 90px;
-	margin-left: 0;
-	margin-right: 0;
+	
 }
+@media only screen and (min-width: 990px) {
+    .container {
+        margin-left: 40px;
+
+    }
+	 }
+
 .slider {
 	margin-bottom: 5px;
 	position: relative;

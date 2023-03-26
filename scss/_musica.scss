@@ -21,7 +21,7 @@
 
 
 .container  {
-    position: fixed;
+    
     width: 100%;
     margin: 0 auto;
     max-width: 80%;
@@ -75,6 +75,12 @@
 	$font-family_1: 'Permanent Marker', cursive;
     font-size: 400px;
     letter-spacing: -4px;
+}
+
+.card_single_disc {
+
+    display: flex;
+    flex-direction: row;
 }
 
 
