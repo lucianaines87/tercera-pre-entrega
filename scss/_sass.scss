@@ -6,7 +6,7 @@ $font-family_1: 'Permanent Marker', cursive;
 $border-color_1: black;
 
 @mixin h1 {
-	font-size: 60px;
+	font-size: 65px;
 	font-family: $font-family_1;
 	$font-family_1: 'Permanent Marker', cursive;
 
@@ -19,12 +19,32 @@ $border-color_1: black;
 	$font-family_1: 'Permanent Marker', cursive;
 }
 
+@mixin h5  {
+	font-size: 15px;
+	font-family: $font-family_1;
+	$font-family_1: 'Permanent Marker', cursive;
+}
+
+@mixin h6  {
+	font-size: 15px;
+	font-family: $font-family_1;
+	$font-family_1: 'Permanent Marker', cursive;
+}
+
+
 @mixin header {
 	font-family: $font-family_1;
 	$font-family_1: 'Permanent Marker', cursive;
 	color: black;
 
 }
+
+@mixin card {
+	font-family: $font-family_1;
+	$font-family_1: 'Permanent Marker', cursive;
+}
+
+
 
 header {
 	@include header
@@ -36,5 +56,14 @@ h1 {
 
 h2 {
 	@include h2
+}
+
+h5 {
+
+	@include h5 
+}
+
+p {
+	@include h6()
 }
 

@@ -1,13 +1,15 @@
 .biografia {
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 10px;
 }
 
-.article {
+.article .p {
+    font-size: 15px;
     opacity: 65%;
-    margin-top: 30px;
+    margin-top: 10px;
     font-family: $font-family_1;
     $font-family_1: 'Permanent Marker', cursive;
 
 }
+
 
