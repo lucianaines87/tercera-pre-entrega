@@ -1,9 +1,11 @@
 html {
   scroll-behavior: auto;
+  height: 100%;
 }
 
 body {
   background-color: #ebebeb;
+  min-height: 100%;
 }
 
 h1 {
@@ -12,33 +14,31 @@ h1 {
 }
 
 .container {
-  margin-top: 90px;
+  margin-top: 0;
 }
 
 @media only screen and (min-width: 990px) {
   .container {
+    margin-top: 90px;
     margin-left: 40px;
   }
 }
 .slider {
+  background-color: transparent;
   margin-bottom: 5px;
   position: relative;
 }
 .slider .owl-item.active.center .slider-card {
   transform: scale(1.15);
   opacity: 1;
-  background: #ff9966;
-  background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
-  background: linear-gradient(to bottom, #ff5e62, #ff9966);
-  color: #ebebeb;
+  background: transparent;
 }
 
 .slider-card {
-  background: #fff;
+  background-color: transparent;
   padding: 0px 0px;
   margin: 50px 15px 90px 15px;
   border-radius: 5px;
-  box-shadow: 0 15px 45px -20px rgba(0, 0, 0, 0.73);
   transform: scale(0.9);
   opacity: 0.5;
   transition: all 0.3s;
@@ -62,6 +62,15 @@ h1 {
   opacity: 1;
   font-size: 30px !important;
   z-index: 1;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.layerraalbum {
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

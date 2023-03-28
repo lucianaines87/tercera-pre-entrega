@@ -37,11 +37,12 @@
 }
 
 .social-lateral {
+    position: relative;
     float: right;
     display: flex;
     width: 40px;
     flex-direction: column;
-    margin-top: 680px;
+    margin-top: 650px;
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: 0;

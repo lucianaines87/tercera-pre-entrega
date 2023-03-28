@@ -10,12 +10,13 @@ $(document).ready(function(){
             "<i class='fa fa-angle-left'></i>",
             "<i class='fa fa-angle-rigth'></i>",
         ],
+        
         responsive:{
             0:{
                 items:1,
                
             },
-            900:{
+            990:{
                 items:3,
                 
             },

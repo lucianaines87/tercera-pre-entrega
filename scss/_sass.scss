@@ -6,6 +6,15 @@ $font-family_1: 'Permanent Marker', cursive;
 $border-color_1: black;
 
 @mixin h1 {
+	font-size: 60px;
+	font-family: $font-family_1;
+	$font-family_1: 'Permanent Marker', cursive;
+
+	
+}
+
+@mixin h2 {
+	font-size: 60px;
 	font-family: $font-family_1;
 	$font-family_1: 'Permanent Marker', cursive;
 }
@@ -23,5 +32,9 @@ header {
 
 h1 {
 	@include h1
+}
+
+h2 {
+	@include h2
 }
 
