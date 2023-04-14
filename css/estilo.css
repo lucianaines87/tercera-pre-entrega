@@ -5,7 +5,6 @@ header {
 }
 
 h1 {
-  font-size: 60px;
   font-family: "Permanent Marker", cursive;
 }
 
@@ -19,14 +18,20 @@ h5 {
   font-family: "Permanent Marker", cursive;
 }
 
+p {
+  font-size: 15px;
+  font-family: "Permanent Marker", cursive;
+}
+
 .biografia {
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 10px;
 }
 
-.article {
+.article .p {
+  font-size: 15px;
   opacity: 65%;
-  margin-top: 30px;
+  margin-top: 10px;
   font-family: "Permanent Marker", cursive;
 }
 
